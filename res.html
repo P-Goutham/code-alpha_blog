@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title >Responsive Blog Section </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        </link>
+        <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Lato', sans-serif;
+   
+}
+body{
+    background-image:url(https://i.pinimg.com/236x/2d/08/3f/2d083f6637b13fc0bb67b9efd2736561.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.container{
+    width:100%;
+}
+.container  .row{
+    width:80%;
+    margin:auto;
+}
+.container  .row .header{
+    width:60%;
+    text-align:center;
+}
+.container  .row  .header h1{
+    text-align:right;
+    padding-top: 30px;
+    font-size: 45px;
+    color:#e19c30;
+}
+.container  .row   .header p{
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #6e6e6e;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    border-color: 2px black;
+}
+.content  .card{
+    flex:1;
+    margin:10px 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    background-color:whitesmoke;
+}
+.content .card img{
+    width:230px;
+    height:auto;
+
+}
+.content  .card h2{
+    margin-top:10px;
+    margin-left:10px;
+    font-size:18px;
+    font-family: fantasy;
+}
+.content .card h3{
+    font-family:cursive;
+    margin-left:50px;
+}
+.content .card p{
+    font-size:15px;
+    color:#6e6e6e;
+    line-height:1.5;
+    padding :10px;
+}
+@media screen and (max-width: 768px){
+    .content {
+        flex-direction: column;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+           <div class="row">
+            <div class="header">
+                <h1>Motorcycle Club</h1>
+            </div>
+            <div class ="content">
+                <div class="card">
+                    <h2 >Royal Enfield</h2>
+                    <h3>-Continental GT650</h3>
+                    <img src="https://www.team-bhp.com/sites/default/files/pictures2021/Rocker%20Red%20GT%20650%201.jpeg">
+                    
+                    <p>  Café Racer
+                        The updated Continental GT 650 takes its inspiration from the 1970s era of British motorcycling, with its cast alloy wheels and blacked-out aesthetic. Alongside its classically-styled, ‘50s and ‘60s-inspired predecessors, it recaptures the spirit of the cafe racer culture of the time and that of our own Continental GT 250. With its sculpted tank, eager attitude and tucked-in riding position, it carries all the hallmarks of a traditional café racer, making it perfect for carving up the back roads or having a ton of fun in the city.</p>
+            
+                    </div>
+                <div class="card">
+                    <h2 >KTM</h2>
+                    <h3>-RC390 </h3>
+                    <img src="https://bikekhoj.com/wp-content/uploads/2022/09/RC-390-Model-Image-1-1024x576.jpg">
+                    <p >The KTM 390 Duke and RC 390 are 373.2 cc (22.77 cu in) displacement single-cylinder engine motorcycles assembled by Bajaj Auto, and KTM Asia Motorcycle Manufacturing, Inc. (KAMMI) for the Austrian manufacturer KTM.[1] The bikes were developed under a joint program of Bajaj and KTM engineers, in which the concept was developed in Austria, while everything else, including design and final product development, was done in India by Bajaj.</p>
+                    </div>
+                <div class ="card">
+                    <h2>Yamaha</h2>
+                    <h3>-MT15</h3>
+                    <img src="https://cdn.shopify.com/s/files/1/2637/7322/products/yamaha-mt-15-automotive-graphics-529075_720x.jpg?v=1657806250">
+    
+                    <p>The Yamaha MT-15 needs no introduction, does it? It is the street naked sibling of the R15 V4 and it recently got an update. The MT-15 version 2.0, as it is called, features a few notable changes and they’ve had quite an effect on the way the motorcycle looks and rides.</p>
+                </div>
+                <div class ="card">
+                    <h2>BMW</h2>
+                    <h3>-G310 RR</h3>
+                    <img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20220919054435_BMW_RR_1.jpg">
+                    
+                    <p>Racing is in the air
+                        Dynamism at first sight. There is no escaping from the BMW G 310 RR’s association with the big RR. The Ram Air Intake makes the most of the oncoming air flow and Gill Vents dissipate the hot air from the engine – and from the rider, obviously. Aerodynamic details that have proven their worth in motorsport.
+                        
+                         </p>
+                </div>
+                
+            </div>
+    
+        </div>
+    </body>
+</html>
